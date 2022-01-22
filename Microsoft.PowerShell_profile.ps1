@@ -38,6 +38,14 @@ function prompt {
     return "$env:CONDA_PROMPT_MODIFIER $userPrompt"
 }
 
+function workon($environment_name) {
+    conda activate $environment_name
+}
+
+function envs {
+    conda env list
+}
+
 function proj {
     Set-Location C:\Projects\
 }
