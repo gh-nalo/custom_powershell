@@ -38,24 +38,8 @@ function prompt {
     return "$env:CONDA_PROMPT_MODIFIER $userPrompt"
 }
 
-function workon($environment_name) {
-    conda activate $environment_name
-}
-
-function envs {
-    conda env list
-}
-
-function proj {
-    Set-Location C:\Projects\
-}
-
 function setprof {
     # powershell_ise $profile
     $base_path = Get-Variable HOME -valueOnly
     code $base_path\Documents\WindowsPowerShell\Microsoft.PowerShell_profile.ps1
-}
-
-function lab {
-    jupyter-lab.exe .
 }
