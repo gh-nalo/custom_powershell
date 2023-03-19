@@ -4,20 +4,20 @@
     "actions": 
     [
         {
-            "command": 
-            {
-                "action": "copy",
-                "singleLine": false
-            },
-            "keys": "ctrl+c"
+            "command": "find",
+            "keys": "ctrl+shift+f"
         },
         {
             "command": "paste",
             "keys": "ctrl+v"
         },
         {
-            "command": "find",
-            "keys": "ctrl+shift+f"
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "keys": "ctrl+c"
         },
         {
             "command": 
@@ -31,7 +31,7 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
     "initialCols": 120,
     "initialRows": 50,
     "profiles": 
@@ -72,31 +72,15 @@
                 {
                     "face": "Roboto Mono for Powerline"
                 },
-                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
+                "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d Ubuntu",
+                "guid": "{1170e75a-a3b5-4d0b-aca3-c291619c3eda}",
                 "hidden": false,
-                "name": "Ubuntu-20.04",
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+                "name": "Ubuntu",
+                "startingDirectory": "~",
                 "opacity": 80,
                 "padding": "16",
-                "source": "Windows.Terminal.Wsl",
                 "useAcrylic": true
-            },
-            {
-                "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-                "hidden": true,
-                "name": "Git Bash",
-                "source": "Git"
-            },
-            {
-                "guid": "{8ac0bfea-0b26-5525-928d-5827c3dde5ce}",
-                "hidden": true,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{6c5dd0b6-7ac5-55e3-8cff-4143ae9b83af}",
-                "hidden": true,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
             }
         ]
     },
@@ -163,7 +147,7 @@
             "cursorColor": "#FFFFFF",
             "cyan": "#56B6C2",
             "foreground": "#DCDFE4",
-            "green": "#63844c",
+            "green": "#63844C",
             "name": "One Half Dark",
             "purple": "#C678DD",
             "red": "#E06C75",
